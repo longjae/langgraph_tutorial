@@ -1,0 +1,4 @@
+.env
+poetry.lock
+data/
+__pycache__

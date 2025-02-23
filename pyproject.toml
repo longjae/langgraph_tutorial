@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "langgraph_tutorial"
+version = "0.1.0"
+description = ""
+authors = []
+
+[tool.poetry.dependencies]
+python = "3.11.9"
+python-dotenv = "^1.0.1"
+langchain = "^0.3"
+langchain-core = "^0.3"
+langchain-experimental = "^0.3"
+langchain-community = "^0.3"
+langchain-openai = "^0.2"
+langchain-anthropic = "^0.2"
+langchain-text-splitters = "^0.3"
+langchain-elasticsearch = "^0.3"
+langchain-upstage = "^0.3"
+langchain-chroma = "^0.1"
+langchain-cohere = "^0.3"
+langchain-milvus = "^0.1.1"
+langchain-google-genai = "^2.0"
+langchain-huggingface = "^0"
+langchain-teddynote = "^0.3.37"
+langchainhub = "^0.1.15"
+langgraph = "^0"
+langsmith = "^0.1"
+openai = "^1.34"
+pdfplumber = "^0.11.5"
+faiss-cpu = "^1.10.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
